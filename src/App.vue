@@ -1,17 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>mrqr_front</h1>
+  <p>템플릿 태그 안에서는 html 코드를 작성합니다.</p>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+// this.axios.get(local).then((response) => { // 실제 API를 요청한다/
+//   console.log(response.data);
+//   this.movieList = response.data.response.body.items.item; // 받아온 데이터를 movieList 배열에 넣어준다.
+//   console.log('영화목록 : ' + this.movieList);
+// })
 </script>
 
 <style>
